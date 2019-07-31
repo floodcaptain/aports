@@ -1,7 +1,7 @@
 Alpine Linux aports repository
 ==============================
 
-This repository contains the APKBUILD files for each and every
+Thisa repository contains the APKBUILD files for each and every
 Alpine Linux package, along with the required patches and scripts,
 if any.
 
