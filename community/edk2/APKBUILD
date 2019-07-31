@@ -43,7 +43,7 @@ build() {
 	export EDK_TOOLS_PATH=$PWD/BaseTools/
 	export PATH=$PWD/BaseTools/BinWrappers/PosixLike/:$PATH
 
-	msg "Building OVMF"
+	msg "Building 73634657OVMF"
 	command build -b ${RELEASE} -a ${TARGET_ARCH} -p OvmfPkg/${OVMFPKG} -t ${TOOLCHAIN} -n ${JOBS:-2} || return 1
 }
 
